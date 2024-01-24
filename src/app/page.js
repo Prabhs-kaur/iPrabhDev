@@ -44,10 +44,14 @@ const content = {
   intro: {
     title: { heading: "Introduction" },
     description: [
-      "Are you looking for a Developer? Highly motivated and fast learner? I'm here for you!",
-      "Highly skilled and results-driven Software Developer with 3+ years of experience specializing in React.js. Proficient in performance optimization while delivering efficient, responsive, and visually appealing user interfaces.",
-      "Adept at troubleshooting and maintaining SEO performance for seamless web experience. Committed to enhancing web accessibility standards to create inclusive digital products.",
-      "I am always looking for opportunities to learn and grow as a developer.",
+      "Are you in search of a dedicated developer? Someone highly motivated and quick to learn? Look no further!",
+
+      "I am an accomplished and results-oriented Software Developer with over 3 years of expertise, specialising in React.js. My proficiency lies in optimising performance to deliver efficient, responsive, and visually appealing user interfaces.",
+      
+     "I excel in troubleshooting and maintaining SEO performance to ensure a seamless web experience. My commitment extends to enhancing web accessibility standards, fostering inclusivity in digital product development.",
+      
+      "Always on the lookout for opportunities to learn and evolve as a developer, I am ready to bring my skills and enthusiasm to your team."
+    
     ],
   },
   socials: {
@@ -113,10 +117,10 @@ export default function Home() {
             <FontAwesomeIcon icon={faNodeJs} size="6x" />
             <p className="card-text fw-bold">NodeJs</p>
           </div>
-          <div className="col d-flex flex-col justify-content-center align-items-center">
+          {/* <div className="col d-flex flex-col justify-content-center align-items-center">
             <FontAwesomeIcon icon={faJira} size="6x" />
             <p className="card-text fw-bold">Jira</p>
-          </div>
+          </div> */}
           <div className="col-sm-0 col-md-1 d-flex flex-col justify-content-center align-items-center"></div>
         </div>
         <div className="row my-5">
@@ -154,10 +158,10 @@ export default function Home() {
             <FontAwesomeIcon icon={faAccessibleIcon} size="6x" />
             <p className="card-text fw-bold">Web Accessibility</p>
           </div>
-          <div className="col d-flex flex-col justify-content-center align-items-center">
+          {/* <div className="col d-flex flex-col justify-content-center align-items-center">
             <img src="/assets/contentful.png" className="rounded w-75" />
             <p className="card-text fw-bold">Contentful CMS</p>
-          </div>
+          </div> */}
          
           <div className="col d-flex flex-col justify-content-center align-items-center">
             <FontAwesomeIcon icon={faJira} size="6x" />
@@ -183,7 +187,7 @@ export default function Home() {
         <div className="row mb-5">
           <div className="col-sm-10 col-md-8">
             <h2 className="fw-bold display-6 mb-2">Let's Work Together</h2>
-            <Link href="mailto:sehajmagan@gmail.com" className="mb-2">
+            <Link href="mailto:prabhjotkaur1243@gmail.com" className="mb-2">
               <button
                 className="btn-animated"
                 href="#intro"
