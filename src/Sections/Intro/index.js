@@ -6,6 +6,8 @@ import Link from "next/link";
 
 import Paragraph from "@/components/Paragraph";
 import Heading from "@/components/Heading";
+
+
 function Intro({ content }) {
   return (
     <>
@@ -28,11 +30,12 @@ function Intro({ content }) {
               <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
             </Link>
           </p>
-          <Link href="/assets/prabhs_resume.pdf">
+         
+          <a href="/assets/Prabhjot_Resume.pdf">
             <button className="btn-animated" href="#intro">
               <span>Resume</span>
             </button>
-          </Link>
+          </a>
         </div>
         <div className="col"></div>
       </div>
