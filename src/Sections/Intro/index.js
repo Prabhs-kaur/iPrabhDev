@@ -31,7 +31,7 @@ function Intro({ content }) {
             </Link>
           </p>
          
-          <a href="/assets/Prabhjot_Resume.pdf">
+          <a href="/assets/Resume.pdf">
             <button className="btn-animated" href="#intro">
               <span>Resume</span>
             </button>
